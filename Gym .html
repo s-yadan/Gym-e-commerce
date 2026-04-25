@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YADAN.FIT | Lean. Sharp. Green.</title>
+    <link rel="stylesheet" href="gym.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <p>Free Shipping on Orders Above Rs. 3000 | Use Code: JAWLINE10</p>
+    </div>
+
+    
+    <header id="header">
+        <nav>
+            <div class="logo">YADAN<span>.FIT</span></div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="nav-icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <i class="fas fa-bars" id="menu-btn"></i>
+            </div>
+        </nav>
+        <div class="search-form">
+            <input type="search" placeholder="Search for Whey, Creatine..." id="search-box">
+            <i class="fas fa-times" id="close-search"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Build <span>Aesthetic</span><br>Not Just Muscle</h1>
+            <p>Pakistan's #1 store for Men's Physique athletes. 170g protein guaranteed.</p>
+            <a href="#products" class="btn">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-stats">
+            <div><h3>10K+</h3><p>Happy Customers</p></div>
+            <div><h3>4.9★</h3><p>Daraz Rating</p></div>
+            <div><h3>24H</h3><p>Fast Delivery</p></div>
+        </div>
+    </section>
+
+    
+    <section id="categories" class="categories">
+        <h2 class="heading">Shop by <span>Goal</span></h2>
+        <div class="cat-container">
+            <div class="cat-box">
+                <img src="whey.jpg" alt="Protein">
+                <h3>Lean Muscle</h3>
+                <p>Whey, Creatine, EAAs</p>
+            </div>
+            <div class="cat-box">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400" alt="Fat Loss">
+                <h3>Sharp Cuts</h3>
+                <p>Fat Burners, CLA, L-Carnitine</p>
+            </div>
+            <div class="cat-box">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400" alt="Gear">
+                <h3>Gym Gear</h3>
+                <p>Straps, Belts, Shakers</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="products" class="products">
+        <h2 class="heading">Trending <span>Products</span></h2>
+        <div class="product-container">
+            <!-- Prodts will be load by Js -->
+        </div>
+    </section>
+
+    
+    <section class="deal-banner">
+        <div class="content">
+            <h3>Deal of the Day</h3>
+            <h1>Jawline Stack - 30% OFF</h1>
+            <p>Whey + Creatine + Fat Burner. Valid till Fajr.</p>
+            <a href="#" class="btn">Claim Now</a>
+        </div>
+        <div class="timer">
+            <div class="box"><h3 id="hours">00</h3><span>Hours</span></div>
+            <div class="box"><h3 id="minutes">00</h3><span>Mins</span></div>
+            <div class="box"><h3 id="seconds">00</h3><span>Secs</span></div>
+        </div>
+    </section>
+
+    
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <i class="fas fa-times" id="close-cart"></i>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="total">
+                <h4>Total: <span id="cart-total">Rs. 0</span></h4>
+            </div>
+            <button class="btn checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h3>YADAN.FIT</h3>
+                <p>Built for people who want to look lean in clothes but shredded without.</p>
+            </div>
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#products">Shop</a>
+                <a href="#about">Track Order</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +92-300-YADANFIT</p>
+                <p><i class="fas fa-envelope"></i> support@yadan.fit</p>
+            </div>
+        </div>
+        <div class="credit">Created by YADAN.DIV | © 2026 All rights reserved</div>
+    </footer>
+
+    <script src="gym.js"></script>
+</body>
+</html>
