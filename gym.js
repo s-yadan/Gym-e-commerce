@@ -159,9 +159,9 @@ updateTimer();
 // Checkout
 document.querySelector('.checkout-btn').onclick = () => {
     if (cart.length === 0) {
-        alert('Cart khali hai bhai! Pehle whey dalo 😂');
+        alert('Cart is empty. first add some items. 😂');
     } else {
-        alert('Order confirmed! Fajr ke baad deliver ho jaye ga. 170g protein pakka 💪');
+        alert('Order confirmed! will be dilverd soon. 💪');
         cart = [];
         updateCart();
         cartSidebar.classList.remove('active');
